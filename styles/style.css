@@ -166,3 +166,51 @@ body {
     font-size: 0.75rem;
     color: var(--scolor);
 }
+
+/* ================================================== */
+
+@media screen and (max-width: 768px) {
+    .container {
+        display: block;
+        background-image: none;
+    }
+
+    .hero {
+        height: 70vh;
+    }
+
+    .hero__content {
+        margin: 5%;
+    }
+
+    .secondary {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .secondary__img {
+        width: 70%;
+    }
+
+    .secondary__description {
+        text-align: center;
+        padding: 2em 0;
+    }
+
+    .reverse {
+        flex-direction: column-reverse;
+    }
+
+    .media__list {
+        gap: 0;
+    }
+
+    .media__item img {
+        width: 80%;
+    }
+
+    .media__item {
+        font-size: 1.5rem;
+    }
+}
